@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18869AE61BCE6FCB00A84264 /* movie_quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18869AE51BCE6FCB00A84264 /* movie_quote.mp3 */; };
+		18869AE81BCEC89C00A84264 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18869AE71BCEC89C00A84264 /* RecordedAudio.swift */; };
+		189198CD1BCD486300B1682D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189198CC1BCD486300B1682D /* AppDelegate.swift */; };
+		189198CF1BCD486300B1682D /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189198CE1BCD486300B1682D /* RecordSoundsViewController.swift */; };
+		189198D21BCD486300B1682D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189198D01BCD486300B1682D /* Main.storyboard */; };
+		189198D41BCD486300B1682D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189198D31BCD486300B1682D /* Assets.xcassets */; };
+		189198D71BCD486300B1682D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189198D51BCD486300B1682D /* LaunchScreen.storyboard */; };
+		189198DF1BCD65B800B1682D /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189198DE1BCD65B800B1682D /* PlaySoundsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18869AE51BCE6FCB00A84264 /* movie_quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = movie_quote.mp3; sourceTree = "<group>"; };
+		18869AE71BCEC89C00A84264 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+		189198C91BCD486300B1682D /* Chipmunk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chipmunk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189198CC1BCD486300B1682D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189198CE1BCD486300B1682D /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		189198D11BCD486300B1682D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189198D31BCD486300B1682D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189198D61BCD486300B1682D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		189198D81BCD486300B1682D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189198DE1BCD65B800B1682D /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189198C61BCD486300B1682D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189198C01BCD486300B1682D = {
+			isa = PBXGroup;
+			children = (
+				18869AE51BCE6FCB00A84264 /* movie_quote.mp3 */,
+				189198CB1BCD486300B1682D /* Chipmunk */,
+				189198CA1BCD486300B1682D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189198CA1BCD486300B1682D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189198C91BCD486300B1682D /* Chipmunk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189198CB1BCD486300B1682D /* Chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				189198CC1BCD486300B1682D /* AppDelegate.swift */,
+				189198CE1BCD486300B1682D /* RecordSoundsViewController.swift */,
+				189198D01BCD486300B1682D /* Main.storyboard */,
+				18869AE71BCEC89C00A84264 /* RecordedAudio.swift */,
+				189198DE1BCD65B800B1682D /* PlaySoundsViewController.swift */,
+				189198D31BCD486300B1682D /* Assets.xcassets */,
+				189198D51BCD486300B1682D /* LaunchScreen.storyboard */,
+				189198D81BCD486300B1682D /* Info.plist */,
+			);
+			path = Chipmunk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189198C81BCD486300B1682D /* Chipmunk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189198DB1BCD486300B1682D /* Build configuration list for PBXNativeTarget "Chipmunk" */;
+			buildPhases = (
+				189198C51BCD486300B1682D /* Sources */,
+				189198C61BCD486300B1682D /* Frameworks */,
+				189198C71BCD486300B1682D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chipmunk;
+			productName = Chipmunk;
+			productReference = 189198C91BCD486300B1682D /* Chipmunk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189198C11BCD486300B1682D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = avo;
+				TargetAttributes = {
+					189198C81BCD486300B1682D = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = QCBK6P7M2R;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 189198C41BCD486300B1682D /* Build configuration list for PBXProject "Chipmunk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189198C01BCD486300B1682D;
+			productRefGroup = 189198CA1BCD486300B1682D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189198C81BCD486300B1682D /* Chipmunk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189198C71BCD486300B1682D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189198D71BCD486300B1682D /* LaunchScreen.storyboard in Resources */,
+				189198D41BCD486300B1682D /* Assets.xcassets in Resources */,
+				18869AE61BCE6FCB00A84264 /* movie_quote.mp3 in Resources */,
+				189198D21BCD486300B1682D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189198C51BCD486300B1682D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18869AE81BCEC89C00A84264 /* RecordedAudio.swift in Sources */,
+				189198CF1BCD486300B1682D /* RecordSoundsViewController.swift in Sources */,
+				189198DF1BCD65B800B1682D /* PlaySoundsViewController.swift in Sources */,
+				189198CD1BCD486300B1682D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		189198D01BCD486300B1682D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189198D11BCD486300B1682D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189198D51BCD486300B1682D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189198D61BCD486300B1682D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189198D91BCD486300B1682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189198DA1BCD486300B1682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189198DC1BCD486300B1682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chipmunk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drm.Chipmunk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		189198DD1BCD486300B1682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Chipmunk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drm.Chipmunk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189198C41BCD486300B1682D /* Build configuration list for PBXProject "Chipmunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189198D91BCD486300B1682D /* Debug */,
+				189198DA1BCD486300B1682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189198DB1BCD486300B1682D /* Build configuration list for PBXNativeTarget "Chipmunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189198DC1BCD486300B1682D /* Debug */,
+				189198DD1BCD486300B1682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189198C11BCD486300B1682D /* Project object */;
+}
